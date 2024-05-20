@@ -8,7 +8,7 @@
    #include <ctime>
    #include <chrono>
    #include <cstring>
-
+   #include <string.h>
 //--------------------------------------------------------------------------------------//
 using namespace HinsyOOP;
 using namespace std;
