@@ -48,14 +48,6 @@ namespace DNN
         class Food;
         // Any Class   
    };
-
-   class Design{
-      public:
-         class Ground;
-         class Store;
-         class User;
-         // Any Class
-   };
 }
 
 #endif
