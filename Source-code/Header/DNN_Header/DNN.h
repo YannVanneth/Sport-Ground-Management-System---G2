@@ -25,7 +25,7 @@ using namespace HinsyOOP;
 namespace DNN
 {
    // Main Abstract Class
-   class User
+   class authentication
    {
       public:
          class Admin;
