@@ -24,7 +24,9 @@ using namespace HinsyOOP;
 
 // #include "../Project_Header/User/User.h"
 // #include "../Project_Header/Ground/Ground.h"
-#include "../Project_Header/Store/Store.h"
+// #include "../Project_Header/Store/Store.h"
+// #include "../Project_Header/Store/Design.h"
+
 // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN
 
 
@@ -35,17 +37,15 @@ using namespace HinsyOOP;
 namespace DNN
 {
    // Main Abstract Class
-   class Authentication
+   namespace Authentication
    {
-      public:
          class Admin;
          class Customer;
          class Staff;
    };
    
-   class Ground
+   namespace Ground
    {
-      public:
          class Fusal;
          class Tennis;
          class Volleyball;
@@ -54,17 +54,15 @@ namespace DNN
          class Booking;
    };
 
-   class Store
+   namespace Store
    {
-      public:
         class Jersey;
         class Drinks;
         class Food;
         // Any Class   
-   };
-   class Design
+   }
+   namespace Design
    {
-      public:
         class Ground;
         class Store;
         class User;
