@@ -13,6 +13,16 @@
 // #include "../Project_Header/Ground/Ground.h"
 // #include "../Project_Header/Store/Store.h"
 
+// DEFINE 
+
+#define KEY_ARROW_UP 72
+#define KEY_ARROW_DOWN 80
+#define KEY_ARROW_LEFT 75
+#define KEY_ARROW_RIGHT 77
+#define KEY_SPACE 32
+#define KEY_ESC 27
+#define KEY_ENTER 13
+
 using namespace HinsyOOP;
 
 // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN
