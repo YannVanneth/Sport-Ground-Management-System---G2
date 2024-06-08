@@ -7,12 +7,6 @@
 // User Define Header
 #include "../ANT_Library/HinsyOOPV2.h"
 
-// Project Header
-
-// #include "../Project_Header/User/User.h"
-// #include "../Project_Header/Ground/Ground.h"
-// #include "../Project_Header/Store/Store.h"
-
 // DEFINE 
 
 #define KEY_ARROW_UP 72
@@ -23,8 +17,14 @@
 #define KEY_ESC 27
 #define KEY_ENTER 13
 
+
 using namespace HinsyOOP;
 
+// Project Header
+
+// #include "../Project_Header/User/User.h"
+// #include "../Project_Header/Ground/Ground.h"
+#include "../Project_Header/Store/Store.h"
 // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN // DNN
 
 
